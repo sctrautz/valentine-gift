@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --rose-950: #3a1e2a;
+  --rose-700: #7b374c;
+  --rose-400: #f06a8a;
+  --rose-300: #ff9db7;
+  --rose-200: #ffb2c7;
+  --peach-200: #ffd1a8;
+  --leaf-500: #4fa775;
+  --leaf-300: #8fddb0;
+  --cream-50: #fff5f8;
+
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  color: var(--rose-950);
+  background-color: var(--cream-50);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(1200px 800px at 6% 10%, rgba(255, 209, 223, 0.85), transparent 70%),
+    radial-gradient(900px 700px at 94% 16%, rgba(255, 230, 206, 0.75), transparent 65%),
+    linear-gradient(160deg, #fff8fb 0%, #ffeef3 45%, #fff6ee 100%);
+  color: inherit;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+  background: none;
+  color: inherit;
+}
