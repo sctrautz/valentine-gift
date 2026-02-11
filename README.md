@@ -1,8 +1,4 @@
-# Valentine Page
-
-A cute single-page Valentine proposal built with Vite + React + TypeScript. It features floating hearts, an animated sprouting flower, and playful Yes/No interactions.
-
-## Run locally
+# Silly little valentines gift
 
 ```bash
 npm install
